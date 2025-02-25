@@ -11,6 +11,7 @@ const {
   resolver: { sourceExts, assetExts },
 } = getDefaultConfig(__dirname);
 
+
 const config = {
   transformer: {
     getTransformOptions: async () => ({
